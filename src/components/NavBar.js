@@ -17,13 +17,13 @@ const NavBar = () => {
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menú</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="./index.html">Inicio</a></li>
-                        <li><a class="dropdown-item" href="./pages/juegos.html">Nuestros juegos!</a></li>
-                        <li><a class="dropdown-item" href="./pages/contacto.html">Contactanos!</a></li>
+                        <li><a class="dropdown-item" href="">Nuestros juegos!</a></li>
+                        <li><a class="dropdown-item" href="">Contactanos!</a></li>
                     </ul>
                 </li>
             </div>           
             <div id="header__row__login" class="col-2 text-center text-light d-none d-sm-none d-md-none d-lg-flex">
-                <a class="text-light text-decoration-none" href="./pages/login.html">Bienvenido!<br/>Inicia sesión acá!</a>
+                <a class="text-light text-decoration-none" href="">Bienvenido!<br/>Inicia sesión acá!</a>
             </div>
             </div>
         </header> 

@@ -8,9 +8,15 @@ header {
   background: linear-gradient(30deg, #280037, #3c0029, #002b58, #5a0015);
   background-size: 300% 300%;
   animation: fade 15s ease-in-out infinite; }
-  header #header__row #header__row__dropdown {
-    font-family: CaviarBold !important; }
-  header #header__row #header__row__login a {
-    font-family: Caviar; }
     header #header__row #header__row__login a:hover {
       color: yellow !important; }
+
+      
+
+@keyframes fade {
+  0% {
+    background-position: 0 50%; }
+  30% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0 50%; } }
